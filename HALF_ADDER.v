@@ -19,6 +19,7 @@ module tb;
     a = 1; b = 0;
     #1;
     a = 1; b = 1;
+    #1;
   end
   initial begin
     $dumpfile("half_adder.vcd");
