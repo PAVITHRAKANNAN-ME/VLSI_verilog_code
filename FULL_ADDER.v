@@ -29,6 +29,7 @@ module tb;
     
     #1;
     a = 1; b = 1;c = 1;
+    #1;
   end
   initial begin
     $dumpfile("full_adder.vcd");
