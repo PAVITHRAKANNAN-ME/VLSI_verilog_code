@@ -3,7 +3,7 @@ module tb;
   reg j, k;
   wire q, q_bar;
   
-  JK dff(clk, rst, j,k, q, q_bar);
+  JK ff(clk, rst, j,k, q, q_bar);
   
   always #2 clk = ~clk;
   initial begin
